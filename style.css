@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 90vh;
+    border: 2px solid black;
+}
+
+
+.pannel{
+    position: relative;
+    border: 2px solid red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: green;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+
+}
+
+.pannel h3{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+
+}
+.pannel.active{
+    flex: 5;
+}
+.pannel.active h3{
+    opacity: 1;
+}
+#pannel-1{
+    background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ-Jt1kTNQd6jf0O1oTPWKPm_D_-Px3rVEiH6ZlQ4MdOV-9hiLUEE7DHdEQbN3lSdFLm2KFp3mjbMQ&usqp=CAc) ;
+  
+}
+#pannel-2{
+    background-image: url(https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg) ;
+}
+#pannel-3{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg);
+}
+#pannel-4{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/surprising-flower-meanings-blanket-flower-1650768520.jpg?crop=0.502xw:1.00xh;0.333xw,0&resize=480:*);
+}
+#pannel-5{
+    background-image: url(https://img.freepik.com/free-photo/front-view-collection-beautiful-flowers_23-2148488456.jpg?w=2000);
+}
